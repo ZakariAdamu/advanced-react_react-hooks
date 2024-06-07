@@ -5,7 +5,7 @@ function UseEffectTask1() {
 
 	const clickHandler = () => {
     setToggle(!toggle);
-    // this fn when fired renders a h2 mssg within my render JSX below
+    // this function when fired renders a h2 mssg within my render JSX below
 	};
 
 	useEffect(() => {
@@ -17,6 +17,7 @@ function UseEffectTask1() {
 	return (
 		<div>
 			<hr />
+			<p className="sandbox-obj">--sandbox for: useEffect hook to update page's JSX title on state change</p>
 			<h1>Using the useEffect hook</h1>
 			<button onClick={clickHandler}>Toggle message</button>
 			{toggle && <h2>Welcome to Little Lemon</h2>}

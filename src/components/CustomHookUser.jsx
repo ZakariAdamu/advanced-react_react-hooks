@@ -12,6 +12,7 @@ function CustomHookUser() {
 	return (
 		<div>
 			<hr />
+			<p className="sandbox-obj">--sandbox for: this component consumes a custom hook that logs the current state to the console.</p>
 			<h1>Count: {count}</h1>
 			<button onClick={increment}>Plus 1</button> <br />
 			<sm>check your console...</sm>

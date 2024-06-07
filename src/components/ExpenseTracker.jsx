@@ -11,10 +11,11 @@ function ExpenseTracker() {
     const initialState = { money: 100 };
     const [state, dispatch] = useReducer(reducer, initialState)
   return (
-      <div>
-          <hr />
+		<div>
+			<hr />
+			<p className="sandbox-obj">--sandbox for: useReducer hook to handle complex state logic</p>
 			<h1>Wallet: {state.money}</h1>
-			<div className='wallet'>
+			<div className="wallet">
 				<button onClick={() => dispatch({ type: "buy_ingredients" })}>
 					Shopping for veggies!
 				</button>

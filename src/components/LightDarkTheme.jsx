@@ -19,6 +19,8 @@ function LightDarkTheme() {
 	return (
 		<div style={theme}>
 			<hr />
+			<p className="sandbox-obj">--sandbox for: useState hook</p>
+
 			<h1>This is a heading</h1>
 			<p>This is some text content...</p>
 			<p>

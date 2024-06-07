@@ -18,6 +18,7 @@ function GoalForm({ onAdd }) {
 	return (
 		<div>
 			<hr />
+			<p className="sandbox-obj">--sandbox for: props - pass props data from parent to children component</p>
 			<h1>My Little Lemon Goals</h1>
 			<form onSubmit={submitHandler}>
 				<input

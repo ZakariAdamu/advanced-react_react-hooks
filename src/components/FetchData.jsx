@@ -14,8 +14,9 @@ function FetchData() {
 	}, []);
 
 	return Object.keys(user).length > 0 ? (
-    <div>
-      <hr />
+		<div>
+			<hr />
+			<p className="sandbox-obj">--sandbox for: useEffect hook to fetch data from an external api</p>
 			<h1>Data returned from fetch API</h1>
 			<h2>First Name: {user.results[0].name.first}</h2>
 			<h2>Last Name: {user.results[0].name.last}</h2>

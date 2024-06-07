@@ -10,6 +10,7 @@ import ExpenseTracker from "./components/ExpenseTracker";
 import PracticeUseRefHook from "./components/PracticeUseRefHook";
 import CustomHookUser from "./components/CustomHookUser";
 import ConfirmationDialog from "./components/ConfirmationDialog";
+import DeleteComponent from "./components/DeleteComponent";
 
 // this is a context api application where two components Header and Page are consuming the user.name state as needed
 const LoggedInUser = () => {
@@ -24,6 +25,7 @@ const LoggedInUser = () => {
 const Header = () => {
 	return (
 		<header>
+			<p className="sandbox-obj">--sandbox for: context api</p>
 			<h2>Blog App</h2>
 			<LoggedInUser />
 		</header>
@@ -63,7 +65,7 @@ function App() {
 			<PracticeUseRefHook />
 			<CustomHookUser />
 			<ConfirmationDialog />
-			
+			<DeleteComponent />
 		</div>
 	);
 }

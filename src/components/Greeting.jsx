@@ -22,6 +22,7 @@ export default function Greeting() {
 	return (
 		<div>
 			<hr />
+			<p className="sandbox-obj">--sandbox for: useState hook with object state</p>
 			<h1>
 				{greeting.greet}, {greeting.place}
 			</h1>
