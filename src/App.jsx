@@ -13,6 +13,7 @@ import ConfirmationDialog from "./components/ConfirmationDialog";
 import DeleteComponent from "./components/DeleteComponent";
 import LiveOrders from "./components/LiveOrders";
 import SignupLoginButton from "./components/SignupLoginButton";
+import HOC from "./components/HOC";
 
 // this is a context api application where two components Header and Page are consuming the user.name state as needed
 const LoggedInUser = () => {
@@ -70,6 +71,7 @@ function App() {
 			<DeleteComponent />
 			<LiveOrders />
 			<SignupLoginButton />
+			<HOC />
 		</div>
 	);
 }
