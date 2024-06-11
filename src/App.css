@@ -48,12 +48,30 @@
   background-color: aqua;
   margin-right: 7px;
 }
-.sandbox-obj{
+
+.sandbox-obj {
   color: #6c7514;
   text-decoration: underline;
   font-style: italic;
 }
-.Row-Orders{
+
+.Row-Orders {
   display: flex;
   justify-content: center;
+}
+
+.SignupLoginButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.PrimaryButton {
+  background-color: blue;
+  margin: 15px;
+}
+
+.SecondaryButton {
+  background-color: green;
 }
