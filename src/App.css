@@ -75,3 +75,18 @@
 .SecondaryButton {
   background-color: green;
 }
+
+
+.RowMousePosition {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 2em;
+  margin-inline: auto;
+  width: 300px;
+  /* background-color: #242424; */
+}
+
+.RowMousePosition span {
+  display: block;
+}
